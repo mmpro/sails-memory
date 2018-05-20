@@ -28,15 +28,15 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "lodash": "3.10.1",
-    "waterline-criteria": "1.0.1",
-    "waterline-errors": "0.10.1",
     "async": "1.5.2",
-    "waterline-cursor": "0.0.7"
+    "lodash": "4.17.10",
+    "waterline-criteria": "^2.0.0",
+    "waterline-cursor": "mmpro/waterline-cursor",
+    "waterline-errors": "0.10.1"
   },
   "devDependencies": {
-    "mocha": "2.5.3",
-    "waterline-adapter-tests": "~0.12.1"
+    "mocha": "^5.2.0",
+    "waterline-adapter-tests": "mmpro/waterline-adapter-tests"
   },
   "waterlineAdapter": {
     "waterlineVersion": "~0.10.0",
